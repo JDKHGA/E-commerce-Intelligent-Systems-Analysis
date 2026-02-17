@@ -1,0 +1,17 @@
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# PyCharm Settings
+.idea/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Data Files (Optional - usually you don't commit large data files, but for this small project it's okay)
+# ecommerce_data.csv
