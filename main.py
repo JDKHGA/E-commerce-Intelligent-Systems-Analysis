@@ -1,16 +1,54 @@
-# This is a sample Python script.
+import os
+import sys
+import subprocess
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+def main():
+    print("=======================================================")
+    print("   E-commerce Intelligent Systems Analysis Project")
+    print("=======================================================")
+    print("Select an action:")
+    print("1. Check Project Status")
+    print("2. Run Real-time Stream Simulation (Kafka)")
+    print("3. Exit")
+    
+    choice = input("\nEnter your choice (1-3): ")
+    
+    if choice == '1':
+        print("\n--- Checking Files ---")
+        # Check for data
+        if os.path.exists('ecommerce_data.csv'):
+            print("✅ Data file 'ecommerce_data.csv' found.")
+        else:
+            print("❌ Data file missing. Please open 'analysis.ipynb' and run the Data Generation cells.")
+            
+        # Check for Docker config
+        if os.path.exists('docker-compose.yml'):
+            print("✅ Docker configuration found.")
+        else:
+            print("❌ 'docker-compose.yml' missing.")
+            
+        print("\nTo see the analysis and model, open 'analysis.ipynb' in Jupyter.")
 
+    elif choice == '2':
+        print("\n--- Starting Stream Simulation ---")
+        if not os.path.exists('ecommerce_data.csv'):
+            print("Error: Data file missing. Cannot stream.")
+            return
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+        print("Note: Ensure Docker is running (docker-compose up -d) before proceeding.")
+        try:
+            # Runs the stream_simulation.py script using the current Python interpreter
+            subprocess.run([sys.executable, 'stream_simulation.py'])
+        except KeyboardInterrupt:
+            print("\nSimulation stopped by user.")
+        except Exception as e:
+            print(f"Error running simulation: {e}")
 
+    elif choice == '3':
+        print("Goodbye!")
+        
+    else:
+        print("Invalid choice. Please run the script again.")
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+if __name__ == "__main__":
+    main()
