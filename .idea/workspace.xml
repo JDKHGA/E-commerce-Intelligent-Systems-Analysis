@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b34ad3a3-28ee-4b9b-8565-f9298003620a" name="Changes" comment="remove project report section from analysis notebook to streamline content">
-      <change beforePath="$PROJECT_DIR$/Project_Report.md" beforeDir="false" afterPath="$PROJECT_DIR$/Project_Report.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="b34ad3a3-28ee-4b9b-8565-f9298003620a" name="Changes" comment="update README to simplify repository cloning instructions">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/analysis.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +162,31 @@
       <option name="project" value="LOCAL" />
       <updated>1771505857815</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="update project report and README to reflect focus on customer behavior analysis">
+      <option name="closed" value="true" />
+      <created>1771506252020</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1771506252020</updated>
+    </task>
+    <task id="LOCAL-00011" summary="update project report and README to reflect focus on customer behavior analysis">
+      <option name="closed" value="true" />
+      <created>1771506278094</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1771506278094</updated>
+    </task>
+    <task id="LOCAL-00012" summary="update README to simplify repository cloning instructions">
+      <option name="closed" value="true" />
+      <created>1771506481145</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1771506481145</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -174,7 +198,9 @@
     <MESSAGE value="add README and project report for e-commerce customer behavior analysis" />
     <MESSAGE value="update project report title to reflect focus on intelligent systems analysis" />
     <MESSAGE value="remove project report section from analysis notebook to streamline content" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove project report section from analysis notebook to streamline content" />
+    <MESSAGE value="update project report and README to reflect focus on customer behavior analysis" />
+    <MESSAGE value="update README to simplify repository cloning instructions" />
+    <option name="LAST_COMMIT_MESSAGE" value="update README to simplify repository cloning instructions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -183,6 +209,11 @@
           <url>file://$PROJECT_DIR$/analysis.ipynb</url>
           <line>112</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>file://$PROJECT_DIR$/analysis.ipynb</url>
+          <line>1</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
