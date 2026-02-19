@@ -34,8 +34,8 @@ This project analyzes customer behavior on an e-commerce platform to extract act
 ### 2. Installation
 Clone the repository and install the required dependencies:
 ```bash
-git clone <your-repo-url>
-cd <your-repo-folder>
+git clone <repo-url>
+cd <repo-folder>
 pip install -r requirements.txt
 ```
 
