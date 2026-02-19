@@ -1,7 +1,7 @@
 # E-commerce Intelligent Systems Analysis
 
 **Author:** John Deladem Kpormegbe  
-**Assignment:** Intelligent Systems Services Engineer Application  
+**Assignment:** Analyzing Customer Behavior for E-commerce Insights 
 
 ## 📋 Project Overview
 This project analyzes customer behavior on an e-commerce platform to extract actionable insights for improving sales and engagement. It demonstrates a full data science workflow, including:
