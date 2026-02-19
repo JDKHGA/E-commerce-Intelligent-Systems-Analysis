@@ -1,4 +1,4 @@
-# Project Report: E-commerce Customer Behavior Analysis
+# Project Report: E-commerce Intelligent Systems Analysis
 
 **Author:** John Deladem Kpormegbe
 
